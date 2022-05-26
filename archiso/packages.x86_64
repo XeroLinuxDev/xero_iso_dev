@@ -177,7 +177,6 @@ system-config-printer
 
 ###XeroLinux Stuffs
 xero-calamares
-xerolinux-tool-dev
 xerolinux-mirrorlist
 calamares-config-dev
 
