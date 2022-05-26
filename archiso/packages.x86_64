@@ -128,6 +128,7 @@ nerd-fonts-hack
 dialog
 dnsutils
 grub
+repoctl
 haveged
 logrotate
 ntp
@@ -174,7 +175,8 @@ print-manager
 splix
 system-config-printer
 
-###Calamares
+###XeroLinux Stuffs
+xerolinux-tool
 xero-calamares
 xerolinux-mirrorlist
 calamares-config-dev
@@ -528,6 +530,17 @@ polkit-kde-agent
 kactivitymanagerd
 xdg-desktop-portal-kde
 
+### KDE Wayland
+
+#qt6-wayland
+#egl-wayland
+#xorg-xwayland
+#kwayland-server
+#kwayland-integration
+#plasma-wayland-session
+#plasma-wayland-protocols
+
+
 ### Plasma Stuff
 
 plasma-nm
@@ -554,6 +567,7 @@ ocs-url
 
 ark
 kgpg
+kate
 kfind
 kcalc
 kwrite
@@ -603,12 +617,3 @@ gnome-keyring
 qt5-virtualkeyboard
 #qt6-virtualkeyboard
 keditbookmarks
-
-### KDE Wayland
-
-#qt6-wayland
-#egl-wayland
-#xorg-xwayland
-#kwayland-server
-#plasma-wayland-session
-#plasma-wayland-protocols
