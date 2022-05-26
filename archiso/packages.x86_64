@@ -176,8 +176,8 @@ splix
 system-config-printer
 
 ###XeroLinux Stuffs
-xerolinux-tool
 xero-calamares
+xerolinux-tool-dev
 xerolinux-mirrorlist
 calamares-config-dev
 
@@ -268,7 +268,7 @@ neofetch
 latte-dock
 
 ### Rice Related
-kde-rice
+kde-rice-dev
 layan-kde-git
 kde-wallpapers
 layan-gtk-theme-git
