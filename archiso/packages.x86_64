@@ -200,6 +200,7 @@ xorg-xrdb
 cryptsetup
 
 imwheel
+topgrade
 brightnessctl
 mkinitcpio-firmware
 

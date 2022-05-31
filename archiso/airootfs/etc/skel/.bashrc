@@ -75,20 +75,22 @@ alias install='sudo pacman -S'
 alias linstall='sudo pacman -U '
 alias update='sudo pacman -Syyu'
 alias clrcache='sudo pacman -Scc'
-alias updb='paru && sudo pacman -Sy'
+
+## Orphans
 alias orphans='sudo pacman -Rns $(pacman -Qtdq)'
 
-#Paru as aur helper - updates everything
+#Paru as aur helper
 alias pget='paru -S '
 alias prm='paru -Rs '
 alias psr='paru -Ss '
-alias upall='paru -Syyu --noconfirm'
 
-#Flatpak Update
-alias fpup='flatpak update'
+#YaY as aur helper
+alias yget='yay -S '
+alias yrm='yay -Rs '
+alias ysr='yay -Ss '
 
-#Snap Update
-alias sup='sudo snap refresh'
+#Update all
+alias upall='topgrade'
 
 #switch between bash and zsh
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
