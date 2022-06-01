@@ -79,11 +79,6 @@ alias clrcache='sudo pacman -Scc'
 ## Orphans
 alias orphans='sudo pacman -Rns $(pacman -Qtdq)'
 
-#Paru as aur helper
-alias pget='paru -S '
-alias prm='paru -Rs '
-alias psr='paru -Ss '
-
 #YaY as aur helper
 alias yget='yay -S '
 alias yrm='yay -Rs '

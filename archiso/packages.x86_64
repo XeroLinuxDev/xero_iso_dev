@@ -200,7 +200,6 @@ xorg-xrdb
 cryptsetup
 
 imwheel
-topgrade
 brightnessctl
 mkinitcpio-firmware
 
@@ -242,11 +241,6 @@ network-manager-applet
 gmrun
 numlockx
 grub-customizer
-
-##Pamac GUI
-flatpak
-pamac-gtk
-
 
 ###weird
 jq
@@ -461,9 +455,12 @@ breeze
 grub-tools
 mkinitcpio-openswap
 
-## AUR
+## PKG Management
 yay-bin
-paru-bin
+flatpak
+topgrade
+kalu-kde
+pacseek-bin
 
 #######################################################
 ###                    EXTRAS                       ###
