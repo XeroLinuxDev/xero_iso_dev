@@ -179,6 +179,7 @@ system-config-printer
 ### XeroLinux Build
 
 xero-calamares
+xero-kde-config
 xerolinux-mirrorlist
 calamares-config-dev
 
@@ -259,7 +260,6 @@ latte-dock
 
 ### Rice/Config Related
 
-kde-rice-dev
 layan-kde-git
 kde-wallpapers
 layan-gtk-theme-git
