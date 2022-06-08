@@ -39,7 +39,6 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 hdparm
 hyperv
@@ -123,14 +122,9 @@ wvdial
 xfsprogs
 xl2tpd
 
-##ZSH Stuff
-
-exa
-zsh
-nerd-fonts-hack
-
 ### archiso-extra
 
+exa
 ntp
 wget
 grub
@@ -248,6 +242,7 @@ ttf-droid
 ttf-roboto
 otf-libertinus
 tex-gyre-fonts
+nerd-fonts-hack
 nerd-fonts-fira-code
 awesome-terminal-fonts
 adobe-source-sans-pro-fonts
