@@ -25,8 +25,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 64-1"
-	buildFolder=$HOME"/kde-dev-build"
-	outFolder=$HOME"/kde-dev-Out"
+	buildFolder=$HOME"/xero-dev-build"
+	outFolder=$HOME"/xero-dev-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "

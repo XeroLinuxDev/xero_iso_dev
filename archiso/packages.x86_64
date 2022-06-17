@@ -209,9 +209,7 @@ xmlto
 ckbcomp
 kconfig
 kpmcore
-qt5-svg
 yaml-cpp
-qt5-tools
 grub-tools
 boost-libs
 polkit-qt5
@@ -219,7 +217,6 @@ kcoreaddons
 kiconthemes
 qt5-x11extras
 qt5-xmlpatterns
-qt5-translations
 mkinitcpio-openswap
 gtk-update-icon-cache
 
@@ -312,7 +309,6 @@ libmtp
 polkit
 sysprof
 semver
-qt5-3d
 zenity
 dnsmasq
 hddtemp
@@ -446,6 +442,7 @@ yay-bin
 flatpak
 topgrade
 pamac-gtk
+pamac-tray-icon-plasma
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -501,7 +498,6 @@ knotifications
 systemsettings
 kde-gtk-config
 packagekit-qt5
-qt5-websockets
 polkit-kde-agent
 kactivitymanagerd
 kdenetwork-filesharing
@@ -587,4 +583,37 @@ xsettingsd
 systemdgenie
 gnome-keyring
 keditbookmarks
-qt5-virtualkeyboard
+#qt5-virtualkeyboard
+
+## QT6-Upgrade
+
+qt6-3d
+qt6-svg
+qt6-base
+qt6-tools
+qt6-scxml
+qt6-lottie
+qt6-charts
+qt6-5compat
+qt6-sensors
+qt6-webview
+qt6-quick3d
+qt6-serialbus
+qt6-webengine
+qt6-datavis3d
+qt6-websockets
+qt6-webchannel
+qt6-serialport
+qt6-multimedia
+qt6-declarative
+qt6-shadertools
+qt6-positioning
+qt6-networkauth
+qt6-imageformats
+qt6-connectivity
+qt6-translations
+qt6-quicktimeline
+qt6-remoteobjects
+qt6-languageserver
+qt6-virtualkeyboard
+
