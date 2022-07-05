@@ -24,7 +24,7 @@ echo
 	#isoLabel='arcolinux-next-'$arcolinuxVersion'-x86_64.iso'
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 64-1"
+	archisoRequiredVersion="archiso 65-1"
 	buildFolder=$HOME"/xero-dev-build"
 	outFolder=$HOME"/xero-dev-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
