@@ -3,5 +3,5 @@ yad --title "XeroLinux Welcome" --form --columns=2 --width=480 --height=120 --te
 --field="<b>Start XeroLinux Installer</b>":fbtn "sh -c 'sudo -E /usr/bin/calamares -D6'" \
 --field="<b>VMWareTools Resolution Fix</b>":fbtn "konsole -e 'sudo systemctl enable --now vmtoolsd'" \
 --field="<b>Update Arch Mirrorlist</b>":fbtn "konsole -e sh '/usr/local/bin/ram'" \
---field="<b>Launch Partition Manager</b>":fbtn "sh -c '/usr/bin/gnome-disks'" \
+--field="<b>Visit XeroLinux on the Web</b>":fbtn "xdg-open https://xerolinux.xyz" \
 --button=Exit:1
