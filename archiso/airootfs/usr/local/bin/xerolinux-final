@@ -41,9 +41,9 @@ rm -rf /home/liveuser/
 echo "XeroLinux-Tool in case no Internet"
 echo "##################################"
 
-if pacman -Qq xerolinux-tool-dev 2>/dev/null
+if pacman -Qq xerolinux-tool-dev 1>/dev/null
 then
-   :
+   echo "Latest is installed, nothing to do..."
 else
    sudo pacman -U --noconfirm /etc/xerolinux-tool-dev-any.pkg.tar.zst
 fi
