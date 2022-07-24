@@ -67,6 +67,10 @@ echo "Remove no longer needed packages"
 echo "#################################"
 sudo pacman -R --noconfirm xero-calamares calamares-config-dev mkinitcpio-archiso ckbcomp kpmcore
 
+echo "Setting KGPg Never to start"
+echo "#################################"
+sudo sed -i '219 i OnlyShowIn=KDE' /etc/xdg/autostart/org.kde.kgpg.desktop
+
 echo "#################################"
 echo "End xerolinux-final"
 echo "#################################"
