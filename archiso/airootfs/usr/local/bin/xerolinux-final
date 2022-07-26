@@ -46,6 +46,7 @@ then
    echo "Latest is installed, nothing to do..."
 else
    sudo pacman -U --noconfirm /etc/xerolinux-tool-dev-any.pkg.tar.zst
+   sudo rm /etc/xerolinux-tool-dev-any.pkg.tar.zst
 fi
 
 echo "Permission of root"
